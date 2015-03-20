@@ -1,0 +1,15 @@
+{
+    "name": "dmp-style-garamond",
+    "version": "0.0.1",
+    "description": "Garamond styling for documents written in Documark.",
+    "main": "index.js",
+    "scripts": {
+        "prepublish": "npm run compile",
+        "compile": "./node_modules/.bin/stylus --out assets/css/ --include src/ --include-css < src/style.styl > assets/css/style.css"
+    },
+    "author": "Jeroen Kruis <kruisjeroen@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "stylus": "^0.50.0"
+    }
+}
