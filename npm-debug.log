@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/jeroenkruis/.npm-packages/bin/npm', 'publish' ]
+2 info using npm@2.9.0
+3 info using node@v0.10.32
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/jeroenkruis/development/documark/dmp-style-garamond',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/jeroenkruis/.npm/dmp-style-garamond/0.0.1/package.tgz not in flight; packing
+9 verbose tar pack [ '/Users/jeroenkruis/.npm/dmp-style-garamond/0.0.1/package.tgz',
+9 verbose tar pack   '/Users/jeroenkruis/development/documark/dmp-style-garamond' ]
+10 verbose tarball /Users/jeroenkruis/.npm/dmp-style-garamond/0.0.1/package.tgz
+11 verbose folder /Users/jeroenkruis/development/documark/dmp-style-garamond
+12 info prepublish dmp-style-garamond@0.0.1
+13 verbose unsafe-perm in lifecycle true
+14 info dmp-style-garamond@0.0.1 Failed to exec prepublish script
+15 error addLocalDirectory Could not pack /Users/jeroenkruis/development/documark/dmp-style-garamond to /Users/jeroenkruis/.npm/dmp-style-garamond/0.0.1/package.tgz
+16 error addLocal Could not install /Users/jeroenkruis/development/documark/dmp-style-garamond
+17 verbose stack Error: dmp-style-garamond@0.0.1 prepublish: `npm run compile`
+17 verbose stack Exit status 1
+17 verbose stack     at EventEmitter.<anonymous> (/Users/jeroenkruis/.npm-packages/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+17 verbose stack     at EventEmitter.emit (events.js:98:17)
+17 verbose stack     at ChildProcess.<anonymous> (/Users/jeroenkruis/.npm-packages/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+17 verbose stack     at ChildProcess.emit (events.js:98:17)
+17 verbose stack     at maybeClose (child_process.js:756:16)
+17 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:823:5)
+18 verbose pkgid dmp-style-garamond@0.0.1
+19 verbose cwd /Users/jeroenkruis/development/documark/dmp-style-garamond
+20 error Darwin 14.3.0
+21 error argv "node" "/Users/jeroenkruis/.npm-packages/bin/npm" "publish"
+22 error node v0.10.32
+23 error npm  v2.9.0
+24 error code ELIFECYCLE
+25 error dmp-style-garamond@0.0.1 prepublish: `npm run compile`
+25 error Exit status 1
+26 error Failed at the dmp-style-garamond@0.0.1 prepublish script 'npm run compile'.
+26 error This is most likely a problem with the dmp-style-garamond package,
+26 error not with npm itself.
+26 error Tell the author that this fails on your system:
+26 error     npm run compile
+26 error You can get their info via:
+26 error     npm owner ls dmp-style-garamond
+26 error There is likely additional logging output above.
+27 verbose exit [ 1, true ]
